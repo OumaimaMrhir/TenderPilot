@@ -1,0 +1,11 @@
+[Extraction    ]     0.6 ms  (règles)  15 exigences extraites
+[Correspondance]     6.5 ms  (règles)  12 couvert, 1 partiel, 2 non couvert
+[Rédaction     ]     0.1 ms  (règles)  brouillon v1 (559 mots)
+[Relecture     ]     0.8 ms  (règles)  score 83% – validation humaine requise – 3 points
+
+Conformité : 83% – validation humaine requise
+  - R03  exigence_partielle : Capacité existante mais insuffisante (exigé : 48 heures, proposé : 72 heures).
+  - R07  exigence_non_couverte : Aucune capacité ne répond à cette exigence.
+  - R15  exigence_non_couverte : Aucune capacité ne répond à cette exigence.
+
+Brouillon : docs/exemple_memoire_technique.md  |  Trace : docs/exemple_trace.json

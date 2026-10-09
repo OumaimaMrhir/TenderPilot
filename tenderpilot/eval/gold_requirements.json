@@ -1,0 +1,77 @@
+[
+  {
+    "text": "collecte des déchets non dangereux au minimum trois fois par semaine",
+    "category": "technique",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "au moins 12 bennes de 30 m³ et 4 compacteurs",
+    "category": "technique",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "déchets dangereux collectés sous 48 heures, transporteur agréé ADR",
+    "category": "technique",
+    "expected_status": "partiel"
+  },
+  {
+    "text": "taux de valorisation matière d'au moins 75 %",
+    "category": "technique",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "plateforme de suivi en ligne des tonnages en temps réel",
+    "category": "technique",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "BSD dématérialisé via Trackdéchets obligatoire",
+    "category": "technique",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "intervention d'urgence sous 4 heures, 24 h/24 et 7 j/7",
+    "category": "technique",
+    "expected_status": "non couvert"
+  },
+  {
+    "text": "attestation d'assurance responsabilité civile professionnelle",
+    "category": "administratif",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "certification ISO 14001",
+    "category": "administratif",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "références d'au moins trois marchés similaires",
+    "category": "administratif",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "prix unitaire par type de déchet et par tonne collectée",
+    "category": "financier",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "plan de réduction des émissions de CO2 liées au transport",
+    "category": "RSE",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "30 % minimum des véhicules au GNV ou à l'électrique",
+    "category": "RSE",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "actions de sensibilisation au tri deux fois par an",
+    "category": "RSE",
+    "expected_status": "couvert"
+  },
+  {
+    "text": "être opérationnel au plus tard le 1er mars 2027",
+    "category": "délai",
+    "expected_status": "non couvert"
+  }
+]

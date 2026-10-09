@@ -1,0 +1,276 @@
+{
+  "requirements": [
+    {
+      "id": "R01",
+      "text": "Le titulaire doit assurer la collecte des déchets non dangereux au minimum trois fois par semaine.",
+      "category": "technique",
+      "mandatory": true
+    },
+    {
+      "id": "R02",
+      "text": "Le titulaire devra mettre à disposition au moins 12 bennes de 30 m³ et 4 compacteurs.",
+      "category": "technique",
+      "mandatory": true
+    },
+    {
+      "id": "R03",
+      "text": "Les déchets dangereux doivent être collectés sous 48 heures après demande, par un transporteur agréé ADR.",
+      "category": "technique",
+      "mandatory": true
+    },
+    {
+      "id": "R04",
+      "text": "Le candidat doit garantir un taux de valorisation matière d'au moins 75 % des déchets collectés.",
+      "category": "technique",
+      "mandatory": true
+    },
+    {
+      "id": "R05",
+      "text": "Le titulaire doit fournir une plateforme de suivi en ligne permettant de consulter les tonnages collectés en temps réel.",
+      "category": "technique",
+      "mandatory": true
+    },
+    {
+      "id": "R06",
+      "text": "Un bordereau de suivi des déchets (BSD) dématérialisé via Trackdéchets est obligatoire pour chaque enlèvement de déchets dangereux.",
+      "category": "technique",
+      "mandatory": true
+    },
+    {
+      "id": "R07",
+      "text": "Le titulaire doit assurer une intervention d'urgence sous 4 heures, 24 h/24 et 7 j/7.",
+      "category": "technique",
+      "mandatory": true
+    },
+    {
+      "id": "R08",
+      "text": "Le candidat doit fournir une attestation d'assurance responsabilité civile professionnelle en cours de validité.",
+      "category": "administratif",
+      "mandatory": true
+    },
+    {
+      "id": "R09",
+      "text": "Le candidat doit être titulaire d'une certification ISO 14001.",
+      "category": "administratif",
+      "mandatory": true
+    },
+    {
+      "id": "R10",
+      "text": "Le candidat devra joindre les références d'au moins trois marchés similaires réalisés au cours des cinq dernières années.",
+      "category": "administratif",
+      "mandatory": true
+    },
+    {
+      "id": "R11",
+      "text": "L'offre financière doit présenter un prix unitaire par type de déchet et par tonne collectée.",
+      "category": "financier",
+      "mandatory": true
+    },
+    {
+      "id": "R12",
+      "text": "Le titulaire doit présenter un plan de réduction des émissions de CO2 liées au transport.",
+      "category": "RSE",
+      "mandatory": true
+    },
+    {
+      "id": "R13",
+      "text": "Il est exigé que 30 % minimum des véhicules affectés au marché roulent au GNV ou à l'électrique.",
+      "category": "RSE",
+      "mandatory": true
+    },
+    {
+      "id": "R14",
+      "text": "Le candidat devra proposer des actions de sensibilisation au tri pour le personnel du site, au moins deux fois par an.",
+      "category": "RSE",
+      "mandatory": true
+    },
+    {
+      "id": "R15",
+      "text": "Le titulaire doit être opérationnel au plus tard le 1er mars 2027.",
+      "category": "délai",
+      "mandatory": true
+    }
+  ],
+  "matches": [
+    {
+      "requirement_id": "R01",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-01"
+      ],
+      "score": 0.75,
+      "justification": "Couvert par CAP-01 – Collecte des déchets non dangereux."
+    },
+    {
+      "requirement_id": "R02",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-02"
+      ],
+      "score": 0.75,
+      "justification": "Couvert par CAP-02 – Parc de contenants."
+    },
+    {
+      "requirement_id": "R03",
+      "status": "partiel",
+      "capability_ids": [
+        "CAP-03"
+      ],
+      "score": 0.62,
+      "justification": "Capacité existante mais insuffisante (exigé : 48 heures, proposé : 72 heures)."
+    },
+    {
+      "requirement_id": "R04",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-04"
+      ],
+      "score": 0.5,
+      "justification": "Couvert par CAP-04 – Valorisation matière."
+    },
+    {
+      "requirement_id": "R05",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-05"
+      ],
+      "score": 0.6,
+      "justification": "Couvert par CAP-05 – Portail client."
+    },
+    {
+      "requirement_id": "R06",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-06"
+      ],
+      "score": 0.67,
+      "justification": "Couvert par CAP-06 – Traçabilité réglementaire."
+    },
+    {
+      "requirement_id": "R07",
+      "status": "non couvert",
+      "capability_ids": [],
+      "score": 0.25,
+      "justification": "Aucune capacité ne répond à cette exigence."
+    },
+    {
+      "requirement_id": "R08",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-08"
+      ],
+      "score": 0.88,
+      "justification": "Couvert par CAP-08 – Assurance."
+    },
+    {
+      "requirement_id": "R09",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-07"
+      ],
+      "score": 1.0,
+      "justification": "Couvert par CAP-07 – Certification environnementale."
+    },
+    {
+      "requirement_id": "R10",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-09"
+      ],
+      "score": 0.5,
+      "justification": "Couvert par CAP-09 – Références."
+    },
+    {
+      "requirement_id": "R11",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-12"
+      ],
+      "score": 0.89,
+      "justification": "Couvert par CAP-12 – Offre financière."
+    },
+    {
+      "requirement_id": "R12",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-10"
+      ],
+      "score": 0.71,
+      "justification": "Couvert par CAP-10 – Flotte bas carbone."
+    },
+    {
+      "requirement_id": "R13",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-10"
+      ],
+      "score": 0.57,
+      "justification": "Couvert par CAP-10 – Flotte bas carbone."
+    },
+    {
+      "requirement_id": "R14",
+      "status": "couvert",
+      "capability_ids": [
+        "CAP-11"
+      ],
+      "score": 0.62,
+      "justification": "Couvert par CAP-11 – Sensibilisation au tri."
+    },
+    {
+      "requirement_id": "R15",
+      "status": "non couvert",
+      "capability_ids": [],
+      "score": 0.0,
+      "justification": "Aucune capacité ne répond à cette exigence."
+    }
+  ],
+  "draft": "# Mémoire technique – projet de réponse\n\n## Technique\n\n### R01 – Le titulaire doit assurer la collecte des déchets non dangereux au minimum trois fois par semaine.\n\nCollecte des déchets non dangereux jusqu'à cinq fois par semaine sur les sites industriels des Hauts-de-France. [CAP-01]\n\n### R02 – Le titulaire devra mettre à disposition au moins 12 bennes de 30 m³ et 4 compacteurs.\n\nParc de 40 bennes de 30 m³ et 10 compacteurs disponibles pour mise à disposition sur site. [CAP-02]\n\n### R03 – Les déchets dangereux doivent être collectés sous 48 heures après demande, par un transporteur agréé ADR.\n\nCollecte des déchets dangereux sous 72 heures par nos chauffeurs agréés ADR. [CAP-03]\n\n**Point d'attention** : Capacité existante mais insuffisante (exigé : 48 heures, proposé : 72 heures). Action à arbitrer avant la remise de l'offre.\n\n### R04 – Le candidat doit garantir un taux de valorisation matière d'au moins 75 % des déchets collectés.\n\nTaux de valorisation matière moyen de 82 % sur nos centres de tri. [CAP-04]\n\n### R05 – Le titulaire doit fournir une plateforme de suivi en ligne permettant de consulter les tonnages collectés en temps réel.\n\nPortail client en ligne avec suivi des tonnages collectés et des enlèvements en temps réel. [CAP-05]\n\n### R06 – Un bordereau de suivi des déchets (BSD) dématérialisé via Trackdéchets est obligatoire pour chaque enlèvement de déchets dangereux.\n\nBordereaux de suivi des déchets dématérialisés et connectés à Trackdéchets pour les déchets dangereux. [CAP-06]\n\n### R07 – Le titulaire doit assurer une intervention d'urgence sous 4 heures, 24 h/24 et 7 j/7.\n\n**À compléter par l'équipe** : aucune capacité documentée ne répond à cette exigence.\n\n## Administratif\n\n### R08 – Le candidat doit fournir une attestation d'assurance responsabilité civile professionnelle en cours de validité.\n\nAttestation d'assurance responsabilité civile professionnelle en cours de validité. [CAP-08]\n\n### R09 – Le candidat doit être titulaire d'une certification ISO 14001.\n\nCertification ISO 14001 et ISO 9001 en cours de validité. [CAP-07]\n\n### R10 – Le candidat devra joindre les références d'au moins trois marchés similaires réalisés au cours des cinq dernières années.\n\nCinq marchés similaires de collecte de déchets industriels réalisés depuis 2022. [CAP-09]\n\n## Financier\n\n### R11 – L'offre financière doit présenter un prix unitaire par type de déchet et par tonne collectée.\n\nGrille de prix unitaire par type de déchet et par tonne collectée, révisable selon l'indice INSEE. [CAP-12]\n\n## Rse\n\n### R12 – Le titulaire doit présenter un plan de réduction des émissions de CO2 liées au transport.\n\n35 % de nos véhicules de collecte roulent au GNV ou à l'électrique, avec un plan de réduction des émissions de CO2 du transport. [CAP-10]\n\n### R13 – Il est exigé que 30 % minimum des véhicules affectés au marché roulent au GNV ou à l'électrique.\n\n35 % de nos véhicules de collecte roulent au GNV ou à l'électrique, avec un plan de réduction des émissions de CO2 du transport. [CAP-10]\n\n### R14 – Le candidat devra proposer des actions de sensibilisation au tri pour le personnel du site, au moins deux fois par an.\n\nAteliers de sensibilisation au tri des déchets pour le personnel des clients, deux fois par an. [CAP-11]\n\n## Délai\n\n### R15 – Le titulaire doit être opérationnel au plus tard le 1er mars 2027.\n\n**À compléter par l'équipe** : aucune capacité documentée ne répond à cette exigence.\n",
+  "review": {
+    "compliance_score": 0.833,
+    "decision": "validation humaine requise",
+    "issues": [
+      {
+        "kind": "exigence_partielle",
+        "message": "Capacité existante mais insuffisante (exigé : 48 heures, proposé : 72 heures).",
+        "requirement_id": "R03"
+      },
+      {
+        "kind": "exigence_non_couverte",
+        "message": "Aucune capacité ne répond à cette exigence.",
+        "requirement_id": "R07"
+      },
+      {
+        "kind": "exigence_non_couverte",
+        "message": "Aucune capacité ne répond à cette exigence.",
+        "requirement_id": "R15"
+      }
+    ]
+  },
+  "trace": [
+    {
+      "agent": "Extraction",
+      "duration_ms": 0.63,
+      "summary": "15 exigences extraites",
+      "mode": "règles"
+    },
+    {
+      "agent": "Correspondance",
+      "duration_ms": 6.51,
+      "summary": "12 couvert, 1 partiel, 2 non couvert",
+      "mode": "règles"
+    },
+    {
+      "agent": "Rédaction",
+      "duration_ms": 0.1,
+      "summary": "brouillon v1 (559 mots)",
+      "mode": "règles"
+    },
+    {
+      "agent": "Relecture",
+      "duration_ms": 0.77,
+      "summary": "score 83% – validation humaine requise – 3 points",
+      "mode": "règles"
+    }
+  ],
+  "attempts": 1
+}

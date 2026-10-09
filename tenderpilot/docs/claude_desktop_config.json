@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tenderpilot": {
+      "command": "python",
+      "args": ["-m", "tenderpilot.mcp_server"],
+      "env": { "LLM_PROVIDER": "", "TENDERPILOT_CAPABILITIES": "/chemin/vers/tenderpilot/data/capacites_entreprise.yaml" }
+    }
+  }
+}

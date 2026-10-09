@@ -1,0 +1,39 @@
+# Capacités de l'entreprise candidate (fictive) : base de connaissances utilisée par l'agent de correspondance
+entreprise: Recyclia Services
+capacites:
+  - id: CAP-01
+    titre: Collecte des déchets non dangereux
+    description: Collecte des déchets non dangereux jusqu'à cinq fois par semaine sur les sites industriels des Hauts-de-France.
+  - id: CAP-02
+    titre: Parc de contenants
+    description: Parc de 40 bennes de 30 m³ et 10 compacteurs disponibles pour mise à disposition sur site.
+  - id: CAP-03
+    titre: Déchets dangereux
+    description: Collecte des déchets dangereux sous 72 heures par nos chauffeurs agréés ADR.
+  - id: CAP-04
+    titre: Valorisation matière
+    description: Taux de valorisation matière moyen de 82 % sur nos centres de tri.
+  - id: CAP-05
+    titre: Portail client
+    description: Portail client en ligne avec suivi des tonnages collectés et des enlèvements en temps réel.
+  - id: CAP-06
+    titre: Traçabilité réglementaire
+    description: Bordereaux de suivi des déchets dématérialisés et connectés à Trackdéchets pour les déchets dangereux.
+  - id: CAP-07
+    titre: Certification environnementale
+    description: Certification ISO 14001 et ISO 9001 en cours de validité.
+  - id: CAP-08
+    titre: Assurance
+    description: Attestation d'assurance responsabilité civile professionnelle en cours de validité.
+  - id: CAP-09
+    titre: Références
+    description: Cinq marchés similaires de collecte de déchets industriels réalisés depuis 2022.
+  - id: CAP-10
+    titre: Flotte bas carbone
+    description: 35 % de nos véhicules de collecte roulent au GNV ou à l'électrique, avec un plan de réduction des émissions de CO2 du transport.
+  - id: CAP-11
+    titre: Sensibilisation au tri
+    description: Ateliers de sensibilisation au tri des déchets pour le personnel des clients, deux fois par an.
+  - id: CAP-12
+    titre: Offre financière
+    description: Grille de prix unitaire par type de déchet et par tonne collectée, révisable selon l'indice INSEE.
